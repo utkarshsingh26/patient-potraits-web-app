@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.mayoLogo{
+    height: 100%;
+    width: 15vw;
+    overflow: hidden;
+}
+.emptySpace{
+    height: 100%;
+    width: 85vw;
+}
+.mayoPicture{
+    height: 100%;
+    width: 100%;
+}

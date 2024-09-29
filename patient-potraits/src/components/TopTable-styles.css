@@ -1,0 +1,12 @@
+.metaData{
+    background-color: #6495ED;
+    border-radius: 10px;
+}
+
+.metaData th{
+    text-align: center;
+}
+
+tbody td{
+    text-align: center;
+}
