@@ -1,14 +1,19 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import Avatar from './pages/Avatar';
+import Timeline from './pages/Timeline';
 
-import Header from "./components/Header"
-import TopNavbar from "./components/TopNavbar";
-import TopTable from "./components/TopTable";
-
-function App() {
+function App(){
   return (<div>
-    <Header/>
-    <TopNavbar/>
-    <TopTable/>
-    </div>)
+    <BrowserRouter>
+    <Routes>
+      <Route index element={<Home/>} />
+      <Route path="/home" element={<Home/>} />
+      <Route path="/avatar" element={<Avatar/>} />
+      <Route path="/timeline" element={<Timeline/>} />
+    </Routes>
+    </BrowserRouter>
+  </div>)
 }
 
 export default App;
